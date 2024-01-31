@@ -1,0 +1,33 @@
+{
+    "id": "clojure",
+    "version": "1.0.0",
+    "name": "Clojure Devcontainer",
+    "description": "Develop Clojure based applications. Includes clojure, lein, node.js, npm and eslint",
+    "documentationURL": "https://github.com/chrisenytc/clojure-devcontainer/tree/main/src/clojure",
+    "licenseURL": "https://github.com/chrisenytc/clojure-devcontainer/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Clojure version (use -bookworm, or -bullseye variants on local arm64/Apple Silicon):",
+            "proposals": [
+				"temurin-21-lein-2.11.1-bookworm",
+				"temurin-21-lein-2.11.1-bullseye",
+				"temurin-21-lein-2.11.1-buster"
+            ],
+            "default": "temurin-21-lein-2.11.1-bullseye"
+        },
+        "nodeVersion": {
+            "type": "string",
+            "description": "Node.js version:",
+            "proposals": [
+				"21.6.1"
+            ],
+            "default": "21.6.1"
+        }
+    },
+    "platforms": [
+        "Clojure",
+        "Node.js",
+        "JavaScript"
+    ]
+}

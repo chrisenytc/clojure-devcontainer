@@ -1,6 +1,12 @@
 {
-	"name": "Favorite color",
-	"image": "mcr.microsoft.com/devcontainers/base:${templateOption:imageVariant}",
+	"name": "Clojure Devcontainer",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"IMAGE_VARIANT": "${templateOption:imageVariant}",
+			"NODE_VERSION": "${templateOption:nodeVersion}"
+		}
+	},
 
 	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
 	// "features": {},
@@ -8,7 +14,8 @@
 	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
-	"postCreateCommand": "echo '${templateOption:favorite}' > /tmp/color.txt"
+	// 👇 Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": ""
 
 	// 👇 Configure tool-specific properties.
 	// "customizations": {},
