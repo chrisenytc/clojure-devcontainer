@@ -59,4 +59,7 @@ RUN ARCH= && dpkgArch="$(dpkg --print-architecture)" \
   # Install node.js global packages
   RUN npm install -g eslint
 
+  # Set JDK Options
+  ENV JDK_JAVA_OPTIONS "-XshowSettings:system -XX:+UseContainerSupport -XX:MaxRAMPercentage=85"
+
   ENTRYPOINT ["/bin/bash"]
