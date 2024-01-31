@@ -3,9 +3,9 @@ ARG NODE_VERSION
 
 FROM clojure:$IMAGE_VARIANT
 
-LABEL org.opencontainers.image.source=https://github.com/chrisenytc/clojure-devcontainer
-LABEL org.opencontainers.image.description="Develop Clojure based applications. Includes clojure, lein, node.js, npm and eslint"
-LABEL org.opencontainers.image.licenses=MIT
+LABEL org.opencontainers.image.source https://github.com/chrisenytc/clojure-devcontainer
+LABEL org.opencontainers.image.description "Develop Clojure based applications. Includes clojure, lein, node.js, npm and eslint"
+LABEL org.opencontainers.image.licenses MIT
 
 # Install system dependencies
 RUN apt-get install -y --no-install-recommends tzdata
