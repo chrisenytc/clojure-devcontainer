@@ -1,17 +1,17 @@
 
-# Hello, World (hello)
+# Clojure Devcontainer (clojure)
 
-A hello world Template
+Develop Clojure based applications. Includes clojure, lein, node.js, npm and eslint
 
 ## Options
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | Ubuntu version (use ubuntu-22.04 or ubuntu-18.04 on local arm64/Apple Silicon): | string | jammy |
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+| imageVariant | Clojure version (use -bookworm, or -bullseye variants on local arm64/Apple Silicon): | string | temurin-21-lein-2.11.1-bullseye |
+| nodeVersion | Node.js version: | string | 21.6.1 |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/devcontainers/template-starter/blob/main/src/hello/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/chrisenytc/clojure-devcontainer/blob/main/src/clojure/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
