@@ -8,7 +8,7 @@
 2. Create a `devcontainer.json` file inside the folder you created
 3. Copy the code example and modify it to your needs
 
-```json
+```jsonc
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/chrisenytc/clojure-devcontainer/tree/main/src/clojure
 {
