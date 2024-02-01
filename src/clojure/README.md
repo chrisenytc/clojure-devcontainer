@@ -8,7 +8,7 @@ Develop Clojure based applications. Includes clojure, lein, node.js, npm and esl
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | imageVariant | Clojure version (use -bookworm, or -bullseye variants on local arm64/Apple Silicon): | string | temurin-21-lein-2.11.1-bullseye |
-| nodeVersion | Node.js version: | string | 21.6.1 |
+| nodeVersion | Node.js version: | string | v20.11.0 |
 
 
 
