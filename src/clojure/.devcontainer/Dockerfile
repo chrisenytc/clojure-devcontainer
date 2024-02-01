@@ -6,10 +6,6 @@ ARG NODE_VERSION
 
 ENV NODE_VERSION ${NODE_VERSION}
 
-LABEL org.opencontainers.image.source https://github.com/chrisenytc/clojure-devcontainer
-LABEL org.opencontainers.image.description "Develop Clojure based applications. Includes clojure, lein, node.js, npm and eslint"
-LABEL org.opencontainers.image.licenses MIT
-
 # Install system dependencies
 RUN apt-get upgrade && apt-get update && apt-get install -y --no-install-recommends curl wget git tzdata
 

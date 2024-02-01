@@ -1,6 +1,6 @@
 {
     "id": "clojure",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "name": "Clojure Devcontainer",
     "description": "Develop Clojure based applications. Includes clojure, lein, node.js, npm and eslint",
     "publisher": "Christopher Enytc",
