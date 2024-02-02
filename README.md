@@ -14,7 +14,7 @@
 {
   "name": "Example",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "image": "ghcr.io/chrisenytc/clojure-devcontainer/clojure",
+  "image": "ghcr.io/chrisenytc/clojure-devcontainer/clojure:latest",
   // Run args
   "runArgs": ["--name", "${localEnv:USER}_devcontainer"],
   // Features to add to the dev container. More info: https://containers.dev/features.

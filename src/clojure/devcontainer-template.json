@@ -11,11 +11,11 @@
             "type": "string",
             "description": "Clojure version (use -bookworm, or -bullseye variants on local arm64/Apple Silicon):",
             "proposals": [
-				"temurin-21-lein-2.11.1-bookworm",
-				"temurin-21-lein-2.11.1-bullseye",
-				"temurin-21-lein-2.11.1-buster"
+				"temurin-21-lein-bookworm",
+				"temurin-21-lein-bullseye",
+				"temurin-21-lein-buster"
             ],
-            "default": "temurin-21-lein-2.11.1-bullseye"
+            "default": "temurin-21-lein-bookworm"
         },
         "nodeVersion": {
             "type": "string",

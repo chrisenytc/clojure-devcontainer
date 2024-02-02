@@ -6,8 +6,11 @@ ARG NODE_VERSION
 
 ENV NODE_VERSION ${NODE_VERSION}
 
+# Update system
+RUN apt-get update && apt-get upgrade -y
+
 # Install system dependencies
-RUN apt-get upgrade && apt-get update && apt-get install -y --no-install-recommends curl wget git tzdata
+RUN apt-get install -y --no-install-recommends curl wget git tzdata
 
 # Install NVM
 RUN mkdir /usr/local/.nvm
